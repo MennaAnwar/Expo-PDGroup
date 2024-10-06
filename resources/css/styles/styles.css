@@ -48,6 +48,14 @@ body {
     font-family: "Titillium Web", sans-serif;
 }
 
+.text-dark{
+    color: var(--dark);
+}
+
+.vedio{
+    height: 200px;
+}
+
 .bg-sec {
     background-color: var(--secondary-color);
 }
