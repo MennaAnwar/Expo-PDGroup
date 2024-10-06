@@ -1,0 +1,235 @@
+.header {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.main-header {
+    background-color: var(--dark);
+}
+
+.main-header .vr {
+    border-left: 1px solid var(--white);
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img {
+    max-height: 70px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logo p {
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-weight: 900;
+    color: var(--white);
+    font-size: 22px;
+    margin: 0 -20px 0 0;
+}
+
+.main-header .bx.bx-phone {
+    color: var(--primary-color);
+}
+
+#navbarNav {
+    width: 46%;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar .category .nav-item {
+    margin: 0 20px 0 0;
+    border: 2px solid transparent;
+    position: relative;
+    color: #f3f3f3;
+    border-radius: 100px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(var(--primary-color), var(--primary-color)),
+        linear-gradient(
+            var(--primary-color) 50%,
+            var(--bs-light-bg-subtle) 80%,
+            #12121300
+        ),
+        linear-gradient(
+            90deg,
+            var(--white),
+            var(--white),
+            var(--white),
+            var(--white),
+            var(--white),
+            var(--white),
+            var(--white)
+        );
+    background-origin: border-box;
+    background-clip: padding-box, border-box, border-box;
+}
+
+.navbar .nav-item a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.products-selector {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+    background: #fff;
+    height: 100%;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    position: fixed;
+    transition: 0.4s ease-in-out;
+    width: 70%;
+    z-index: 5001;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Media query for width condition */
+@media (min-width: 992px) {
+    #sidebar {
+        transform: translateX(-100%);
+    }
+
+    .overlay {
+        display: none;
+    }
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#sidebar .sidebar-header {
+    background: var(--primary-color);
+    padding: 1.25rem 1rem 1rem;
+}
+
+#sidebar .sidebar-content {
+    padding: 1.25rem 1rem 1rem;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 40px;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a,
+#sidebar ul li select {
+    padding: 10px 16px;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    color: var(--dark);
+    background: #fff;
+}
+
+#sidebar ul li.active {
+    color: var(--dark);
+    background: #cfe5a3;
+    border-radius: 6px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    width: 100%;
+    opacity: 0;
+}
+
+.overlay.visible {
+    opacity: 1;
+    z-index: 5000;
+}
+
+ul.social-icons {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+ul.social-icons li {
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 0;
+}
+
+#sidebar ul.social-icons li a {
+    font-size: 24px;
+}
+
+#sidebarCollapseX,
+#sidebarCollapse {
+    font-size: 32px;
+    color: var(--white);
+}
+
+.main-header a {
+    text-decoration: none;
+}
+
+.main-header .header-icon {
+    font-weight: bold;
+}
+
+.path-section .vr {
+    border-left: 1px solid var(--dark);
+    height: 24px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.custom-mr-0 {
+    margin-right: 0 !important;
+}
+
+.custom-p-0 {
+    padding: 0 !important;
+}
+
+.chat-icons {
+    width: 45px;
+    background: #4fb649;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
