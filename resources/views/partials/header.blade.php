@@ -6,7 +6,7 @@
     <div class="main-header">
         <div class="container py-4">
             <div class="row d-flex align-items-center">
-                <div class="col-7 d-flex align-items-center">
+                <div class="col-4 d-flex align-items-center">
                     <button type="button" id="sidebarCollapse" class="btn d-sm-block d-lg-none">
                         <i class="bx bx-menu icon-single"></i>
                     </button>
@@ -15,7 +15,15 @@
                             <p class="bold">EXPO</p>
                     </a>
                 </div>
-                <div class="col-5">
+                <div class="col-4 d-flex justify-content-center">
+                    <div class="social-icons">
+                        <a href="#"><img src="{{ asset('build/assets/images/icons/whatsapp.svg') }}" alt="WhatsApp" /></a>
+                        <a href="#"><img src="{{ asset('build/assets/images/icons/instagram.svg') }}" alt="Instagram" /></a>
+                        <a href="#"><img src="{{ asset('build/assets/images/icons/facebook.svg') }}" alt="Facebook" /></a>
+                        <a href="#"><img src="{{ asset('build/assets/images/icons/tiktok.svg') }}" alt="TikTok" /></a>
+                    </div>
+                </div>
+                <div class="col-4">
                     <div class="d-flex justify-content-end align-items-center fs-3">
                         <i class='bx bx-phone mx-2'></i>
                         <span class="contact-info"> 0800 6121 047 </span>

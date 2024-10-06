@@ -7,6 +7,10 @@
     background-color: var(--dark);
 }
 
+.main-header .social-icons img{
+    width: 35px;
+}
+
 .main-header .vr {
     border-left: 1px solid var(--white);
     margin: 0 10px;
