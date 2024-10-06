@@ -15,42 +15,16 @@ class NavLinks extends Component
      */
     public function __construct()
     {
-        $currentPath = request()->path();
-        // Load the constants
-        $constants = require app_path('Constants/PageConstants.php');
         
-        switch (true) {
-            case (Str::contains($currentPath, 'expo')):
-                $this->links = $constants['expo']->links;
-                break;
+        $this->links = [
+            ['title' => 'About US', 'slug' => 'About US'],
+            ['title' => 'Our Services', 'slug' => 'Our Services'],
+            ['title' => 'Our Work', 'slug' => 'Our Work'],
+            ['title' => 'Resources', 'slug' => 'Resources'],
+            ['title' => 'Expos', 'slug' => 'Expos'],
+            ['title' => 'Contact US', 'slug' => 'Contact US'],
+        ];
 
-            case (Str::contains($currentPath, 'signs')):
-                $this->links = $constants['signs']->links;
-                break;
-
-            case (Str::contains($currentPath, 'print')):
-                $this->links = $constants['print']->products;
-                break;
-
-            case (Str::contains($currentPath, 'cut')):
-                $this->links = $constants['cut']->products;
-                break;
-
-            case (Str::contains($currentPath, 'fit-out')):
-                $this->links = $constants['fit-out']->products;
-                break;
-
-            default:
-                $this->links = [
-                    ['title' => ' Print', 'slug' => 'print'],
-                    ['title' => 'Signs', 'slug' => 'signs'],
-                    ['title' => 'Shopfitting', 'slug' => 'fit-out'],
-                    ['title' => 'Cut', 'slug' => 'cut'],
-                    ['title' => 'Expo', 'slug' => 'expo'],
-                ];
-                break;
-
-        }
     }
 
     /**

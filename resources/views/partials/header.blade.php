@@ -27,19 +27,7 @@
     <!-- END MAIN HEADER -->
 
     <!-- NAVBAR -->
-    <nav class="container navbar d-lg-flex d-none">
-        <ul class="d-flex align-items-center my-2">
-            <li class="nav-item me-3">
-                <a class="nav-link" href="{{ route('home') }}">
-                    Home
-                </a>
-            </li>
-            <li class="nav-item me-3">
-                <a class="nav-link" href="">
-                    About
-                </a>
-            </li>
-        </ul>
+    <nav class="container navbar d-lg-flex d-none justify-content-end">
         <ul class="d-flex align-items-center my-2 category">
             <x-nav-links/>
         </ul>
