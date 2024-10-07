@@ -139,5 +139,84 @@
         </div>
     </section>
     <!-- End OUR SERVICES section -->
+
+    <!-- Resources Section -->
+    <section class="p-p mt-5 container our-resources-section">
+        <h3 class="title"> IMPORTANT RESOURCES FOR EXHIBITORS</h3>
+        <div class="d-flex justify-content-center flex-wrap">
+            <div class="border-card p-3 position-relative">
+                <h3 class="title">Do’s & Don’ts of a networking events</h3>
+                <h3 class="title fw-normal">Do’s of a networking events</h3>
+                <ol class="mb-0 p-3">
+                    <li><span class="subtitle">Prepare a Quick Introduction (Elevator Pitch)</span></li>
+                    <li><span class="subtitle">Research Attendees or Companies</span></li>
+                    <li><span class="subtitle">Be Approachable and Engaged</span></li>
+                    <li><span class="subtitle">Ask Open-Ended Questions</span></li>
+                </ol>
+                <span class="subtitle"> ........  Read more</span>
+                <h3 class="title fw-normal">Don’ts of a networking events</h3>
+                <ol class="mb-0 p-3">
+                    <li><span class="subtitle">Don’t Hard-Sell Yourself or Your Business</span></li>
+                    <li><span class="subtitle">Don’t Dominate Conversations</span></li>
+                    <li><span class="subtitle">Don’t Interrupt Ongoing Conversations</span></li>
+                    <li><span class="subtitle">Don’t Stay in One Group the Whole Time</span></li>
+                </ol>
+                <span class="subtitle"> ........  Read more</span>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                    <button class="card-btn fs-6">READ MORE</button>
+                </div>
+            </div>
+            <div class="border-card p-3 position-relative">
+                <h3 class="title">How to deliver unexpected at an expo</h3>
+                <h3 class="title fw-normal">
+                    Here are some creative ideas to introduce surprise elements and elevate the attendee experience:
+                </h3>
+                <ol class="mb-0 p-3">
+                    <li><span class="subtitle">Interactive Experiences with a Twist</span></li>
+                    <li><span class="subtitle">Technology-Driven Surprises</span></li>
+                    <li><span class="subtitle">Gamification and Unexpected Challenges</span></li>
+                    <li><span class="subtitle">Engage All Five Senses</span></li>
+                    <li><span class="subtitle">Giveaways with a Twist</span></li>
+                </ol>
+                <span class="subtitle"> ........  Read more</span>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                    <button class="card-btn fs-6">READ MORE</button>
+                </div>
+            </div>
+            <div class="border-card p-3 position-relative">
+                <h3 class="title"> How to prepare for an exhibition</h3>
+                <h3 class="title fw-normal">
+                    HPreparing for an exhibition requires careful planning and organization to ensure that you make the most of the opportunity. Here's a step-by-step guide on how to prepare effectively
+                </h3>
+                <ol class="mb-0 p-3">
+                    <li><span class="subtitle">Set Clear Goals and Objectives</span></li>
+                    <li><span class="subtitle">Research and Choose the Right Exhibition</span></li>
+                    <li><span class="subtitle">Plan Your Exhibition Booth Design</span></li>
+                    <li><span class="subtitle">Finalize Your Product or Service Display</span></li>
+                </ol>
+                <span class="subtitle"> ........  Read more</span>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                    <button class="card-btn fs-6">READ MORE</button>
+                </div>
+            </div>
+            <div class="border-card p-3 position-relative">
+                <h3 class="title">Progressing from design to exhibit</h3>
+                <h3 class="title fw-normal">
+                    The "From Design to Exhibit" process involves turning creative concepts into a fully realized exhibition. Here's a comprehensive step-by-step guide to the process
+                </h3>
+                <ol class="mb-0 p-3">
+                    <li><span class="subtitle">Concept Development</span></li>
+                    <li><span class="subtitle">Initial Design Planning</span></li>
+                    <li><span class="subtitle">3D Visualization and Detailed Design</span></li>
+                    <li><span class="subtitle">Prototyping and Testing</span></li>
+                </ol>
+                <span class="subtitle"> ........  Read more</span>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                    <button class="card-btn fs-6">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Resources Section -->
     
 @endsection

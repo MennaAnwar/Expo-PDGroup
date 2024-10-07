@@ -97,6 +97,11 @@ body {
     height: auto;
 }
 
+.our-resources-section .border-card{
+    width: 47%;
+    height: auto;
+}
+
 .title {
     font-weight: bold;
     color: var(--primary-color);
