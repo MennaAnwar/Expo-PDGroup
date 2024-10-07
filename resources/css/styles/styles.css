@@ -92,9 +92,14 @@ body {
     margin: 10px;
 }
 
-.our-services-section .border-card{
+#our-services-section .border-card{
     width: 260px;
     height: auto;
+}
+
+.services-section a{
+text-decoration: none;
+color: var(--white);
 }
 
 .our-resources-section .border-card{

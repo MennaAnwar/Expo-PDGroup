@@ -18,13 +18,13 @@
     <!-- Services Overview Section -->
     <section class="container mt-3 p-0 services-section d-flex justify-content-between flex-wrap">
         <div class="service-card">
-            <span>SOME OF <br>OUR WORK</span>
+            <a href="#our-work-section"><span>SOME OF <br>OUR WORK</span></a>
         </div>
         <div class="service-card">
-            <span>SERVICES <br> WE OFFER</span>
+            <a href="#our-services-section"><span>SERVICES <br> WE OFFER</span></a>
         </div>
         <div class="service-card">
-            <span>DO YOU WANT <br>TO CONTACT US</span>
+            <a href="#contact-us-section"><span>DO YOU WANT <br>TO CONTACT US</span></a>
         </div>
     </section>
     <!-- End Services Overview Section -->
@@ -52,7 +52,7 @@
     <!-- End About Us Preview Section -->
 
     <!-- Our Work Section -->
-    <section class="mt-5 p-0 container our-work-section">
+    <section class="mt-5 p-0 container"id="our-work-section">
         <h2 class="title"> OUR WORK</h2>
         <div class="row">
             <div class="mb-4 col-lg-8 col-md-12 mb-lg-0">
@@ -84,7 +84,7 @@
     <!-- End Inspiration Section -->
 
     <!-- OUR SERVICES section -->
-    <section class="p-0 mt-5 container our-services-section">
+    <section class="p-0 mt-5 container" id="our-services-section">
         <h3 class="title">OUR SERVICES</h3>
         <div class="d-flex justify-content-center flex-wrap">
             <div class="border-card p-3 position-relative">
@@ -220,7 +220,7 @@
     <!-- End Resources Section -->
 
     <!-- Contact us Section -->
-    <section class="my-3 p-0 container contact-us-section">
+    <section class="my-3 p-0 container" id="contact-us-section">
         <div class="bg-sec p-5 d-flex flex-md-row flex-column justify-content-between align-items-center">
             <div class="text-center text-md-start">
                 <h3 class="title">Let's Get Started</h3>
