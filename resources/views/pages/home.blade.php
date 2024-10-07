@@ -82,5 +82,62 @@
         </div>
     </section>
     <!-- End Inspiration Section -->
+
+    <!-- OUR SERVICES section -->
+    <section class="p-0 mt-5 container our-services-section">
+        <h3 class="title">OUR SERVICES</h3>
+        <div class="d-flex justify-content-center flex-wrap">
+            <div class="border-card p-3 position-relative">
+                <h3 class="title fw-normal w-75">Strategy & Show Planning</h3>
+                <ul class="list-unstyled mb-5">
+                    <li><span class="subtitle">Creative & Design</span></li>
+                    <li><span class="subtitle">Marketing</span></li>
+                    <li><span class="subtitle">Registration</span></li>
+                    <li><span class="subtitle">Analytics</span></li>
+                    <li><span class="subtitle">Event Tech</span></li>
+                </ul>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                    <button class="card-btn fs-6">READ MORE</button>
+                </div>
+            </div>
+            <div class="border-card p-3 position-relative">
+                <h3 class="title fw-normal w-75">Program & Event Management</h3>
+                <ul class="list-unstyled mb-5">
+                    <li><span class="subtitle">Content & Speakers</span></li>
+                    <li><span class="subtitle">Program Management</span></li>
+                    <li><span class="subtitle">Graphics Production & Design</span></li>
+                    <li><span class="subtitle">Exhibitor Education</span></li>
+                </ul>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                    <button class="card-btn fs-6">READ MORE</button>
+                </div>
+            </div>
+            <div class="border-card p-3 position-relative">
+                <h3 class="title fw-normal w-75"> Show Site Services</h3>
+                <ul class="list-unstyled mb-5">
+                    <li><span class="subtitle">Installation & Dismantle</span></li>
+                    <li><span class="subtitle">Exhibitor Booth Rentals</span></li>
+                    <li><span class="subtitle">Electrical & Rigging</span></li>
+                    <li><span class="subtitle">Show Organizer Operations</span></li>
+                </ul>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                    <button class="card-btn fs-6">READ MORE</button>
+                </div>
+            </div>
+            <div class="border-card p-3 position-relative">
+                <h3 class="title fw-normal w-75">Exhibitor Experience</h3>
+                <ul class="list-unstyled mb-5">
+                    <li><span class="subtitle">Transportation</span></li>
+                    <li><span class="subtitle">Shipping & Material Handling</span></li>
+                    <li><span class="subtitle">Installation & Dismantle</span></li>
+                    <li><span class="subtitle">Contingency Planning & Crisis</span></li>
+                </ul>
+                <div class="position-absolute bottom-0 end-0 p-3">
+                    <button class="card-btn fs-6">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End OUR SERVICES section -->
     
 @endsection

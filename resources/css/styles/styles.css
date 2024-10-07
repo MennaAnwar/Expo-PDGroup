@@ -92,13 +92,17 @@ body {
     margin: 10px;
 }
 
+.our-services-section .border-card{
+    width: 260px;
+    height: auto;
+}
+
 .title {
     font-weight: bold;
     color: var(--primary-color);
 }
 
 .subtitle {
-    font-style: italic;
     color: var(--dark);
 }
 
