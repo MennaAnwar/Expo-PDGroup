@@ -17,10 +17,10 @@
                 </div>
                 <div class="col-4 d-flex justify-content-center">
                     <div class="social-icons">
-                        <a href="#"><img src="{{ asset('build/assets/images/icons/whatsapp.svg') }}" alt="WhatsApp" /></a>
                         <a href="#"><img src="{{ asset('build/assets/images/icons/instagram.svg') }}" alt="Instagram" /></a>
                         <a href="#"><img src="{{ asset('build/assets/images/icons/facebook.svg') }}" alt="Facebook" /></a>
                         <a href="#"><img src="{{ asset('build/assets/images/icons/tiktok.svg') }}" alt="TikTok" /></a>
+                        <a href="#"><img src="{{ asset('build/assets/images/icons/youtube.svg') }}" alt="Youtube" /></a>
                     </div>
                 </div>
                 <div class="col-4">
