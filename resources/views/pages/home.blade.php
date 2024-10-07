@@ -51,8 +51,23 @@
     </section>
     <!-- End About Us Preview Section -->
 
+    <!-- Our Work Section -->
+    <section class="mt-5 p-0 container our-work-section">
+        <h2 class="title"> OUR WORK</h2>
+        <div class="row">
+            <div class="mb-4 col-lg-8 col-md-12 mb-lg-0">
+                <div class="border-card"></div>
+            </div>
+            <div class="col-lg-4 col-md-12 d-flex flex-column flex-lg-column flex-md-row justify-content-between">
+                <div class="border-card h-100 w-100"></div>
+                <div class="border-card h-100 w-100"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Work Section -->
+
     <!-- Inspiration Section -->
-    <section class="container bg-sec inspiration-section mt-3 p-0">
+    <section class="container bg-sec inspiration-section mt-5 p-0">
         <div class="card-container">
             <div class="text-container">
                 <h1 class="title">Haven’t found what you are looking for?</h1>
