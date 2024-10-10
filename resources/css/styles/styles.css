@@ -58,7 +58,6 @@ body {
 
 }
 
-
 .video-container {
     position: relative;
 }
@@ -111,6 +110,30 @@ body {
 
 .bg-sec {
     background-color: var(--secondary-color);
+}
+
+.resource-card img{
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.resource-card{
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 20px;
+}
+
+.resource-card .card-btn{
+    margin: 0;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 .Preview-section .vr{

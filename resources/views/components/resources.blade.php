@@ -1,8 +1,7 @@
-@extends('layouts.app')
+@props(['title'])
 
 @section('title', $page->title)
-
-@section('content')
+    
     <!-- HERO SECTION -->
     <section class="container hero-section mt-3 p-0">
         <div class="bg-sec video-container">
@@ -25,5 +24,18 @@
         </div>
     </section>
     <!-- END HERO SECTION -->
+
+    <!-- Resources section -->
+    <section class="container mt-3 p-0">
+        <div class="d-flex flex-wrap justify-content-center">
+            @foreach ($resources as $resource)
+                <div class="bg-sec resource-card d-flex flex-column align-items-center">
+                    <img src="{{ asset('build/assets/images/' . $resource->img) }}" alt="{{ $resource->title }}">
+                    <h2 class="text-dark text-center fw-normal">{{ $resource->title }}</h2>
+                    <a href="{{ route('resources', ['slug' => $resource->link]) }}" class="card-btn">VIEW VIDEO</a>
+                </div>
+            @endforeach
+        </div>
+    </section>
+    <!-- End Resources section -->
     
-@endsection

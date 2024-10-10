@@ -11,6 +11,7 @@ use Illuminate\Support\Str;
 class Resources extends Component
 {
     public $page;
+    public $resources;
 
     public function __construct()
     {
@@ -19,7 +20,7 @@ class Resources extends Component
         $constants = require app_path('Constants/PageConstants.php');
         
         switch (true) {
-            case (Str::contains($currentPath, 'Dos_and_Don\'ts_of_a_networking_event')):
+            case (Str::contains($currentPath, "Dos_and_Donts_of_a_networking_event")):
                 $this->page = $constants['Dos & Don\'ts'];
                 break;
                 
@@ -35,6 +36,8 @@ class Resources extends Component
                 $this->page = $constants['design to exhibit'];
                 break;
         }
+
+        $this->resources = $constants;
     }
 
     /**
