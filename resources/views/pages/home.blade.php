@@ -231,18 +231,6 @@
     </section>
     <!-- End Resources Section -->
 
-    <!-- Contact us Section -->
-    <section class="my-3 p-0 container" id="contact-us-section">
-        <div class="bg-sec p-5 d-flex flex-md-row flex-column justify-content-between align-items-center">
-            <div class="text-center text-md-start">
-                <h3 class="title">Let's Get Started</h3>
-                <h3 class="title fw-normal"> Reach out and request a consultation.</h3>
-            </div>
-            <div class="mt-md-0 mt-3">
-                <button class="card-btn fs-6">READ MORE</button>
-            </div>
-        </div>
-    </section>
-    <!-- End Contact us Section -->
+
     
 @endsection

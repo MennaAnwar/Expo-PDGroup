@@ -52,6 +52,12 @@ body {
     color: var(--dark);
 }
 
+.text-white{
+    color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+
 
 .video-container {
     position: relative;
@@ -68,7 +74,6 @@ body {
 .video-overlay-text h1{
     font-size: 4rem;
 }
-
 
 .custom-play-btn, .custom-pause-btn {
     position: absolute;
@@ -143,6 +148,18 @@ body {
 #our-services-section .border-card{
     width: 260px;
     height: auto;
+}
+
+#contact-us-section{
+    background: url('/build/assets/images/contact-us.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+#contact-us-section img{
+    width: 6vw;
 }
 
 .services-section a{

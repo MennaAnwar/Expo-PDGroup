@@ -26,7 +26,7 @@
                 <div class="col-4">
                     <div class="d-flex justify-content-end align-items-center fs-3">
                         <i class='bx bx-phone mx-2'></i>
-                        <span class="contact-info"> 0800 6121 047 </span>
+                        <span class="contact-info"> 00 44 800 6121 047</span>
                     </div>
                 </div>
             </div>

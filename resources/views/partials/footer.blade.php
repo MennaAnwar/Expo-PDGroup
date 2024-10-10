@@ -4,9 +4,6 @@
         <div class="mt-4 row">
             <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-between">
                 <div class="d-flex justify-content-center flex-column align-items-center my-md-3">
-                    @if (!request()->is('/'))
-                        <span class="powered-by mb-2"> powered by </span>
-                    @endif
                     <a href="{{ route('home') }}" class="logo">
                         <img src="{{ asset('build/assets/images/logo.svg') }}" alt="Logo" class="img-fluid">
                     </a>
@@ -14,10 +11,10 @@
                 <div class="follow-us">
                     <h6 class="mt-4">Follow Us</h6>
                     <div class="social-icons">
-                        <a href="#"><img src="{{ asset('build/assets/images/icons/whatsapp.svg') }}" alt="WhatsApp" /></a>
                         <a href="#"><img src="{{ asset('build/assets/images/icons/instagram.svg') }}" alt="Instagram" /></a>
                         <a href="#"><img src="{{ asset('build/assets/images/icons/facebook.svg') }}" alt="Facebook" /></a>
                         <a href="#"><img src="{{ asset('build/assets/images/icons/tiktok.svg') }}" alt="TikTok" /></a>
+                        <a href="#"><img src="{{ asset('build/assets/images/icons/youtube.svg') }}" alt="Youtube" /></a>
                     </div>
                 </div>
             </div>
@@ -25,7 +22,7 @@
                 <div class="order-lg-1 order-sm-2">
                     <h6>Contact Us</h6>
                     <ul class="list-unstyled">
-                        <li><i class='bx bx-phone'></i></i> 800 6121047</li>
+                        <li><i class='bx bx-phone'></i></i> 0044 800 6121047</li>
                         <li><i class='bx bx-envelope' ></i> info@proprint.biz</li>
                         <li class="d-flex align-items-start">
                             <img src="{{ asset('build/assets/images/icons/location.svg') }}" alt="location" />
