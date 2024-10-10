@@ -52,8 +52,56 @@ body {
     color: var(--dark);
 }
 
-.vedio{
-    height: 200px;
+
+.video-container {
+    position: relative;
+}
+
+.video-overlay-text {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.video-overlay-text h1{
+    font-size: 4rem;
+}
+
+
+.custom-play-btn, .custom-pause-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: var(--text-sec);
+}
+
+.custom-play-btn i, .custom-pause-btn i {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.custom-pause-btn {
+    display: none; /* Hide the pause button initially */
+}
+
+/* Show the button with some hover effects */
+.custom-play-btn:hover, .custom-pause-btn:hover {
+    opacity: 0.8;
 }
 
 .bg-sec {

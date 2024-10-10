@@ -6,11 +6,23 @@
 
     <!-- HERO SECTION -->
     <section class="container hero-section mt-3 p-0">
-        <div class="bg-sec p-5">
-            <div class="vedio">Vedio</div>
-            <h1 class="title text-dark">
-                Experiences That Go Beyond Expectations
-            </h1>
+        <div class="bg-sec video-container">
+            <video id="custom-video" class="w-100" poster="{{asset('build/assets/images/Experiences That Go Beyond Expectations.png')}}">
+                <source src='https://www.w3schools.com/html/mov_bbb.mp4' type='video/mp4'>
+            </video>
+            <div class="video-overlay-text">
+                <h1 class="fw-bold px-5">
+                    Experiences That Go Beyond Expectations
+                </h1>
+            </div>
+            <button id="custom-play-btn" class="custom-play-btn">
+                <i class='bx bx-play'></i>
+                <span>PLAY</span>
+            </button>
+            <button id="custom-pause-btn" class="custom-pause-btn">
+                <i class='bx bx-pause' ></i>
+                <span>PAUSE</span>
+            </button>
         </div>
     </section>
     <!-- END HERO SECTION -->
