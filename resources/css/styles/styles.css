@@ -126,7 +126,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 500px;
     margin: 20px;
 }
 
@@ -147,6 +147,10 @@ body {
 .float img{
     width: 60px;
     height: 60px;
+}
+
+a.card-btn{
+    text-decoration: none;
 }
 
 .Preview-section .vr{

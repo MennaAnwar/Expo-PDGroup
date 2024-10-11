@@ -175,7 +175,7 @@
                 </ol>
                 <span class="subtitle"> ........  Read more</span>
                 <div class="position-absolute bottom-0 end-0 p-3">
-                    <button class="card-btn fs-6">READ MORE</button>
+                    <a href="{{ route('resources', ['slug' => 'Dos_and_Donts_of_a_networking_event']) }}" class="card-btn fs-6">READ MORE</a>
                 </div>
             </div>
             <div class="border-card p-3 position-relative">
@@ -192,7 +192,7 @@
                 </ol>
                 <span class="subtitle"> ........  Read more</span>
                 <div class="position-absolute bottom-0 end-0 p-3">
-                    <button class="card-btn fs-6">READ MORE</button>
+                    <a href="{{ route('resources', ['slug' => 'How_to_deliver_unexpected_at_an_exhibtion']) }}" class="card-btn fs-6">READ MORE</a>
                 </div>
             </div>
             <div class="border-card p-3 position-relative">
@@ -208,7 +208,7 @@
                 </ol>
                 <span class="subtitle"> ........  Read more</span>
                 <div class="position-absolute bottom-0 end-0 p-3">
-                    <button class="card-btn fs-6">READ MORE</button>
+                    <a href="{{ route('resources', ['slug' => 'How_to_prepare_for_an_exhibtion']) }}" class="card-btn fs-6">READ MORE</a>
                 </div>
             </div>
             <div class="border-card p-3 position-relative">
@@ -224,7 +224,7 @@
                 </ol>
                 <span class="subtitle"> ........  Read more</span>
                 <div class="position-absolute bottom-0 end-0 p-3">
-                    <button class="card-btn fs-6">READ MORE</button>
+                    <a href="{{ route('resources', ['slug' => 'Progressing_from_design_to_exhibit']) }}" class="card-btn fs-6">READ MORE</a>
                 </div>
             </div>
         </div>
