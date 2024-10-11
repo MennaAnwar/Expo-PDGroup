@@ -204,7 +204,10 @@ color: var(--white);
 }
 
 .our-resources-section .border-card{
-    width: 47%;
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 10px;
     height: auto;
 }
 
