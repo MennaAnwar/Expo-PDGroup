@@ -7,7 +7,8 @@
     <!-- HERO SECTION -->
     <section class="container hero-section mt-3 p-0">
         <div class="bg-sec video-container">
-            <video id="custom-video" class="w-100" poster="{{asset('build/assets/images/Experiences That Go Beyond Expectations.png')}}">
+            <video id="custom-video" class="w-100" 
+                poster="{{asset('build/assets/images/Experiences That Go Beyond Expectations.png')}}">
                 <source src='https://www.w3schools.com/html/mov_bbb.mp4' type='video/mp4'>
             </video>
             <div class="video-overlay-text">
@@ -231,6 +232,7 @@
     </section>
     <!-- End Resources Section -->
 
+    @include('partials.contact-us')
 
     
 @endsection

@@ -19,4 +19,7 @@
         </div>
     </section>
     <!-- End Inspiration Section -->
+
+    @include('partials.contact-us')
+
 @endsection

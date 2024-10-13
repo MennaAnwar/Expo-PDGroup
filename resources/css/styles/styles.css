@@ -186,7 +186,8 @@ a.card-btn{
 }
 
 #our-services-section .border-card{
-    width: 260px;
+    flex-basis: 265px;
+    margin: 10px;
     height: auto;
 }
 

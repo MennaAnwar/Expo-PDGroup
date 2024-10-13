@@ -1,0 +1,11 @@
+.contact-us-section .bxs-phone::before,
+.contact-us-section .bxs-envelope::before{
+    color: var(--dark);
+}
+
+.keep-in-touch{
+    padding: 20px;
+    border-radius: 20px;
+}
+
+

@@ -17,12 +17,12 @@ class NavLinks extends Component
     {
         
         $this->links = [
-            ['title' => 'About US', 'slug' => 'About US'],
-            ['title' => 'Our Services', 'slug' => 'Our Services'],
-            ['title' => 'Our Work', 'slug' => 'Our Work'],
-            ['title' => 'Resources', 'slug' => 'Resources'],
-            ['title' => 'Expos', 'slug' => 'Expos'],
-            ['title' => 'Contact US', 'slug' => 'Contact US'],
+            ['title' => 'About US', 'route' => 'home'],
+            ['title' => 'Our Services', 'route' => 'home'],
+            ['title' => 'Our Work', 'route' => 'home'],
+            ['title' => 'Resources', 'route' => 'home'],
+            ['title' => 'Expos', 'route' => 'home'],
+            ['title' => 'Contact US', 'route' => 'contact-us'],
         ];
 
     }

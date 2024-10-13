@@ -10,3 +10,7 @@ Route::get('/', function () {
 Route::get('/resources/{slug}', function ($slug) {
     return view('pages.resources', ['component' => new Resources($slug)]);
 })->name('resources');
+
+Route::get('/contact_us', function () {
+    return view('pages.contact-us');
+})->name('contact-us');

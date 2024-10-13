@@ -1,7 +1,7 @@
 @foreach ($links as $link)
     <li class="nav-item">
         <a class="nav-link" 
-           href="{{  route('home', ['slug' => $link['slug']]) }}">
+           href="{{ route($link['route'])}}">
             {{ $link['title'] }}
         </a>
     </li>
