@@ -109,10 +109,17 @@
     overflow: auto;
     position: fixed;
     transition: 0.4s ease-in-out;
-    width: 70%;
+    width: 75%;
     z-index: 5001;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 767px) {
+    #sidebar {
+        width: 100%;
+    }
+}
+
 
 /* Media query for width condition */
 @media (min-width: 992px) {
@@ -135,7 +142,30 @@
 }
 
 #sidebar .sidebar-content {
-    padding: 1.25rem 1rem 1rem;
+    position: relative;
+    padding: 20px;
+    z-index: 0;
+}
+
+.sidebar-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/build/assets/images/icons/PD.svg') no-repeat center center; 
+    background-size: 50%;
+    opacity: 0.1; 
+    z-index: -1; 
+    transform: translate(0, 0) scale(0);
+}
+
+
+.active .sidebar-content::before{
+    transform: translate(0 , 0) scale(1);
+    transition: all 0.8s cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    transition-delay: 0.5s;
 }
 
 #sidebar ul.components {
@@ -161,7 +191,6 @@
 
 #sidebar ul li a:hover {
     color: var(--dark);
-    background: #fff;
 }
 
 #sidebar ul li.active {
