@@ -74,10 +74,6 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-.video-overlay-text h1{
-    font-size: 4rem;
-}
-
 .custom-play-btn, .custom-pause-btn {
     position: absolute;
     top: 50%;
