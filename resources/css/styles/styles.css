@@ -48,6 +48,10 @@ body {
     font-family: "Titillium Web", sans-serif;
 }
 
+.hr{
+    color:var(--text-sec);
+}
+
 .text-dark{
     color: var(--dark);
 }
@@ -136,18 +140,6 @@ body {
     font-size: 1rem;
 }
 
-.float{
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    box-shadow: 0px 0px 20px 6px #55cd6c;
-    border-radius: 50%;
-}
-
-.float img{
-    width: 60px;
-    height: 60px;
-}
 
 a.card-btn{
     text-decoration: none;

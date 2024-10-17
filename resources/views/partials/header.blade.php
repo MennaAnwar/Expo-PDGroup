@@ -63,32 +63,25 @@
         </div>
 
         <div class="sidebar-content">
-            <ul class="list-unstyled components links">
-            <li class="nav-item me-3">
-                <a class="nav-link" href="{{ route('home') }}">
-                    Home
-                </a>
-            </li>
-            <li class="nav-item me-3">
-                <a class="nav-link" href="">
-                    About
-                </a>
-            </li>
-            </ul>
 
             <ul class="mb-3 list-unstyled components">
                 <x-nav-links/>
             </ul>
 
+            <h5 class="title">Follow Us</h5>
+
             <ul class="social-icons">
                 <li>
-                    <a href="#" target="_blank" title=""><i class="bx bxl-facebook-square"></i></a>
+                    <a href="#"><img src="{{ asset('build/assets/images/icons/instagram.svg') }}" alt="Instagram" /></a>
                 </li>
                 <li>
-                    <a href="#" target="_blank" title=""><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><img src="{{ asset('build/assets/images/icons/facebook.svg') }}" alt="Facebook" /></a>
                 </li>
                 <li>
-                    <a href="#" target="_blank" title=""><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><img src="{{ asset('build/assets/images/icons/tiktok.svg') }}" alt="TikTok" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="{{ asset('build/assets/images/icons/youtube.svg') }}" alt="Youtube" /></a>
                 </li>
             </ul>
         </div>

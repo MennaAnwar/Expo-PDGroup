@@ -9,8 +9,4 @@
         </div>
     </section>
     
-    <a href="https://wa.me/00448006121047" class="float">
-        <img src="{{ asset('build/assets/images/icons/whatsapp.svg') }}" alt="WhatsApp" />
-    </a>
-
     <!-- End Contact us Section -->

@@ -9,6 +9,7 @@
 <body>
     @include('partials.header')
     @yield('content')
+    @include('partials.contact-us-floating-btns')
     @include('partials.footer')
     @include('partials.scripts')
 
