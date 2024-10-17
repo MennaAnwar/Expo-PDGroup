@@ -15,7 +15,7 @@
                             <p class="bold">EXPO</p>
                     </a>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-4 d-lg-flex d-none justify-content-center">
                     <div class="social-icons">
                         <a href="#"><img src="{{ asset('build/assets/images/icons/instagram.svg') }}" alt="Instagram" /></a>
                         <a href="#"><img src="{{ asset('build/assets/images/icons/facebook.svg') }}" alt="Facebook" /></a>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="d-flex justify-content-end align-items-center fs-3">
+                    <div class="d-lg-flex d-none justify-content-end align-items-center fs-3">
                         <i class='bx bx-phone mx-2'></i>
                         <span class="contact-info"> 00 44 800 6121 047</span>
                     </div>

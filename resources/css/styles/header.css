@@ -239,6 +239,21 @@ ul.social-icons li {
     color: var(--white);
 }
 
+#sidebarCollapse.btn {
+    color: var(--white);
+    padding: 5px 10px;
+    border:none;
+    background: transparent;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+}
+
+#sidebarCollapse.btn:hover{
+    color: var(--primary-color);
+}
+
 .main-header a {
     text-decoration: none;
 }
