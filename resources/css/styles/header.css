@@ -90,6 +90,31 @@
     font-weight: bold;
 }
 
+.navbar .nav-item.active{
+    background: linear-gradient(var(--primary-color), var(--primary-color)),
+        linear-gradient(
+            var(--primary-color) 50%,
+            var(--dark) 80%,
+            #12121300
+        ),
+        linear-gradient(
+            90deg,
+            var(--dark),
+            var(--dark),
+            var(--dark),
+            var(--dark),
+            var(--dark),
+            var(--dark),
+            var(--dark)
+        );
+    background-origin: border-box;
+    background-clip: padding-box, border-box, border-box;
+}
+
+.navbar .nav-item.active a{
+    color: var(--dark);
+}
+
 .products-selector {
     border: none;
     background-color: transparent;

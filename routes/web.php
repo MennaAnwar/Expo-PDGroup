@@ -14,3 +14,7 @@ Route::get('/resources/{slug}', function ($slug) {
 Route::get('/contact_us', function () {
     return view('pages.contact-us');
 })->name('contact-us');
+
+Route::get('/about_us', function () {
+    return view('pages.about-us');
+})->name('about-us');

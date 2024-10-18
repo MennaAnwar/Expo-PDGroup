@@ -17,7 +17,7 @@ class NavLinks extends Component
     {
         
         $this->links = [
-            ['title' => 'About US', 'route' => 'home'],
+            ['title' => 'About US', 'route' => 'about-us'],
             ['title' => 'Our Services', 'route' => 'home'],
             ['title' => 'Our Work', 'route' => 'home'],
             ['title' => 'Resources', 'route' => 'home'],

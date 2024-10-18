@@ -29,7 +29,7 @@
     <!-- END HERO SECTION -->
 
     <!-- Services Overview Section -->
-    <section class="container mt-3 p-0 services-section d-flex justify-content-between flex-wrap">
+    <section class="container mt-3 p-0 services-section d-flex justify-content-center flex-wrap">
         <div class="service-card">
             <a href="#our-work-section"><span>SOME OF <br>OUR WORK</span></a>
         </div>

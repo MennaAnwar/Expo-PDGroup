@@ -3,7 +3,7 @@
 @section('content')
     <x-resources/>
 
-        <!-- Inspiration Section -->
+    <!-- Inspiration Section -->
     <section class="container bg-sec inspiration-section mt-5 p-0">
         <div class="card-container">
             <div class="text-container">
